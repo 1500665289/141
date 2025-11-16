@@ -1,0 +1,72 @@
+<Stories><List>	
+<!--系统使用，不能修改-->
+	<Story Name="Story_Item_LingDuiHuan" Parent="BaseFillingStory">
+		<DisplayName>灵石礼盒</DisplayName>
+		<Desc>用100个灵晶换10000灵石的礼盒</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			
+			<li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:RandomInt(1, 23); 
+				if nR <= 2 then
+					me:AddMsg("[NAME]打开盒子，获得了10000灵石。");me:DropAwardItem("Item_LingStone",10000);
+				else
+					me:AddMsg("[NAME]打开盒子，获得了10000灵石。");me:DropAwardItem("Item_LingStone",10000);
+				end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="Story_Item_lingshizrz" Parent="BaseFillingStory">
+		<DisplayName>灵晶礼盒</DisplayName>
+		<Desc>用10000个灵石换100灵晶的礼盒</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			
+			<li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:RandomInt(1, 23); 
+				if nR <= 20 then
+					me:AddMsg("[NAME]打开盒子，获得了100灵晶。");me:DropAwardItem("Item_LingCrystal",100);
+				else
+					me:AddMsg("[NAME]打开盒子，获得了100灵晶。");me:DropAwardItem("Item_LingCrystal",100);
+				end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Story_Item_TaiYiMen" Parent="BaseFillingStory">
+		<DisplayName>太一门秘匣</DisplayName>
+		<Desc>里面封存了一些有关于太一门的东西。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			
+			<li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:RandomInt(1, 23); 
+				if nR <= 2 then
+					me:AddMsg("[NAME]掉了张地图下来。");me:DropEsoteric("YouJi_9_5");
+				else
+					me:AddMsg("[NAME]掉了张地图下来。");me:DropEsoteric("YouJi_9_5");
+				end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

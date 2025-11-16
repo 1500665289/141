@@ -1,0 +1,191 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_PengLai001" Parent="DrugBase">
+	<ThingName>百花琼酿</ThingName>
+	<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+	<TexScale>0.5</TexScale>	
+	<Desc>产自前古修真门派蓬莱仙岛的神奇灵药，制作方法已经失传，使用后会永久增加灵气最大值。</Desc>
+	<MaxStack>10</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Tags>
+	</Tags>
+	<Rate>6</Rate>
+	<Beauty>8</Beauty>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>10</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "16"/>
+				<Item name = "Item_Water" count = "10"/>
+			</CostItems>
+		</BeMade> 
+		
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>Modifier_Item_PengLai001_B</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>150</PracticeNutrition>
+		</Food>
+		<!-- <Rot>
+			<RotSpeed>0.003</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>8000</LingMax>
+		</Rot> -->
+	</Item>
+	
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_PengLai002" Parent="DrugBase">
+	<ThingName>蓬莱仙浆</ThingName>
+	<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+	<TexScale>0.5</TexScale>	
+	<Desc>产自前古修真门派蓬莱仙岛的神奇灵药，制作方法已经失传，使用后会永久的大幅增加灵气最大值。</Desc>
+	<MaxStack>10</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Tags>
+	</Tags>
+	<Rate>9</Rate>
+	<Beauty>8</Beauty>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>10</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "50"/>
+				<Item name = "Item_Water" count = "10"/>
+			</CostItems>
+		</BeMade> 
+		
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>Modifier_Item_PengLai002_B</Modifier>
+			<Fesistance>0.25</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>150</PracticeNutrition>
+		</Food>
+		<!-- <Rot>
+			<RotSpeed>0.003</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>8000</LingMax>
+		</Rot> -->
+	</Item>
+	
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_PengLai003" Parent="DrugBase">
+	<ThingName>蓬莱玉露</ThingName>
+	<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+	<TexScale>0.5</TexScale>	
+	<Desc>产自前古修真门派蓬莱仙岛的神奇灵药，制作方法已经失传，使用后永久的巨幅增加灵气最大值，但也会永久降低修炼速度。</Desc>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Tags>
+	</Tags>
+	<Rate>11</Rate>
+	<Beauty>8</Beauty>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>10</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "300"/>
+				<Item name = "Item_Water" count = "10"/>
+			</CostItems>
+		</BeMade> 
+		
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>Modifier_Item_PengLai003</Modifier>
+			<Fesistance>0</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>150</PracticeNutrition>
+		</Food>
+		<!-- <Rot>
+			<RotSpeed>0.003</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>8000</LingMax>
+		</Rot> -->
+	</Item>
+	
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+	
+	<ThingDef Type="Item" Name="Item_TianshanWater" Parent="DrugBase">
+	<ThingName>天山灵水</ThingName>
+	<TexPath>res/Sprs/object/object_changshengquan01</TexPath>
+	<TexScale>0.5</TexScale>	
+	<Desc>产自天山峰顶的神奇灵水，服用后可以恢复所有灵气</Desc>
+	<MaxStack>100</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Rate>12</Rate>
+	<Beauty>15</Beauty>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Modifier>Modifier_Item_TianshanWater</Modifier>
+		</Elixir>
+		<BeMade>
+			<WorkToMake>800</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "10"/>
+				<Item name = "Item_Water" count = "100"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+	</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+</List></ThingDefs>

@@ -1,0 +1,49 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_Dan_Fail4" Parent="DanBase">
+		<ThingName>炼毁的丹药</ThingName>
+		<TexPath>res\Sprs\object\object_plaster03</TexPath>
+		<Desc>炼制失败的丹药，似乎过分吸收了丹炉中的真火之力，可以让食用者五内俱焚，而且会有损寿元。但如若从这种伤势中活下来，也许会获得一些好处。</Desc>	
+		<Rate>9</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>4</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="100" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>LowDensity1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_Fail4</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>2000</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1000"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

@@ -1,0 +1,14 @@
+<Esotericas><List>	
+	<Esoterica Name="YouJi_9_5">
+		<DisplayName>太一门地图</DisplayName>
+		<Desc>一张破旧的太一门的地图。</Desc>
+		<Hide>1</Hide>
+		<Element>None</Element>
+		<Type>None</Type>
+		<Difficulty>0</Difficulty>
+		<EffectDesc>获得地点信息：\n灵石矿场</EffectDesc>
+		<Places>
+			<li>Place_TaiYiMen1</li>
+		</Places>
+	</Esoterica>
+</List></Esotericas>
